@@ -13,7 +13,4 @@ services:
     cap_add:
       - NET_ADMIN
     logging:
-      driver: "json-file"
-      options:
-        max-size: "20M"
-        max-file: "10"
+      driver: "none"
